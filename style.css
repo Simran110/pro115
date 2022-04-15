@@ -1,0 +1,28 @@
+h1 {
+  font-size: 100px !important;
+  font-style: arial;
+}
+
+.btn-success:hover {
+  background-color: red;
+}
+
+canvas {
+  animation-name: ColorShadow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ColorShadow{
+  from {
+    box-shadow: 1px 1px 100px rgb(240, 109, 109);
+  }
+
+  to {
+    box-shadow: 1px 1px 100px palevioletred;
+  }
+}
+
+.btn-warning{
+  font-size: 30px !important;
+}
